@@ -403,7 +403,7 @@ button {
 .footer-flex {
   display: flex;
   align-items: baseline;
-  padding: 100px 0 100px 156px;
+  padding: 100px 0 100px 15px;
 }
 
 .logo-footer {
@@ -468,9 +468,6 @@ button {
 
 .footer-form {
   display: flex;
-}
-
-.footer-form-label {
   gap: 24px;
 }
 
@@ -592,7 +589,7 @@ button {
 
 .modal-btn:hover .icon-close,
 .modal-btn:focus .icon-close {
-  stroke: #ffffff;
+  fill: #ffffff;
 }
 
 .icon-close,
@@ -609,7 +606,6 @@ button {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 16px;
-  margin-top: 48px;
 }
 
 .modal-form-field {
@@ -736,6 +732,7 @@ input[type='checkbox']:checked + .agreement-checkbox {
   color: #fff;
 
   display: block;
+  margin: auto;
   min-width: 169px;
   height: 56px;
   border: none;
